@@ -9,7 +9,7 @@ public class Microsoft {
 
         Employee employeeOne = new Employee();// calling for default constructor
         employeeOne.salary=2000;
-        System.out.println(employeeOne);//you can delete toString() because that is work automatically
+        System.out.println(employeeOne.toString());//you can delete toString() because that is work automatically
         //Employee{name='null', jobTitle='null', ID=0, salary=$10000.0, companyNameMicrosoft}
                                                         //salary=$120000.0
         employeeOne.salary=120000;
